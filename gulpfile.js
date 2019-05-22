@@ -25,6 +25,14 @@ const banner = ['/*!\n',
   '\n'
 ].join('');
 
+gulp.task('serveprod', function() {
+  connect.server({
+    root: ["./index.html"],
+    port: process.env.PORT || 3000, // localhost:3000
+    livereload: false
+  });
+});
+
 // BrowserSync
 function browserSync(done) {
   browsersync.init({

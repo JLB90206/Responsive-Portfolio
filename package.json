@@ -3,9 +3,7 @@
     "name": "startbootstrap-freelancer",
     "version": "5.0.4",
     "scripts": {
-        "build": "gulp",
-        "start": "gulp watch",
-        "postinstall": "gulp default"
+        "start": "gulp watch"
     },
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
     "keywords": [
