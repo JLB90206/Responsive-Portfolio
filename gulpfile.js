@@ -37,7 +37,7 @@ gulp.task('serveprod', function() {
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./index.html"
     },
     port: 3000
   });
