@@ -3,6 +3,7 @@
     "name": "startbootstrap-freelancer",
     "version": "5.0.4",
     "scripts": {
+        "build": "gulp",
         "start": "gulp watch",
         "postinstall": "gulp default"
     },
